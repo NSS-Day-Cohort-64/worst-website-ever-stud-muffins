@@ -1,0 +1,13 @@
+.Jonathan {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.words {
+    width: 50px;
+}
+
+.image {
+    width: 100px;
+    height: 100px;
+}
