@@ -8,10 +8,10 @@ export const locationList = () => {
     let locationsHTML = "<h3>Locations that Big Foot has defernately been spotedd.</h3>"
 
     for (const location of locationDatabase) {
-        locationsHTML += `<div id="card" class="Jonathan class="card">
-        <div class="content">
-          <image class="image" src="${location.image}">
-              <p class="words">${location.location}</p>
+        locationsHTML += `<div id="Jonathan-card" class="Jonathan class="Jonathan-card">
+        <div class="Jonathan-content">
+          <image class="Jonathan-image" src="${location.image}">
+              <p class="Jonathan-words">${location.location}</p>
         </div>
       </div>
         `
