@@ -4,6 +4,8 @@
     border-top: 4px solid hotpink;
     border-bottom: 2px solid rgb(199, 212, 5);
     width: 95%;
+    background-color:rgb(206, 241, 11);
+    display: flex;
 }
 
 .Ryan__bigfoot {
@@ -16,6 +18,35 @@
     width: 50%;
 }
 
+.Ryan__UFO {
+    background-color: rgb(196, 3, 109);
+    color: rgb(0, 221, 255);
+    text-shadow: -0.5px 0.5px 0.5px black;
+}
+
+.Ryan__Illuminati {
+    background-color: rgb(235, 20, 156);
+    color: rgb(10, 217, 232);
+    text-shadow: -0.5px 0.5px 0.5px black;
+}
+
+.Ryan__Flatearth {
+    background-color: rgb(241, 11, 11);
+    color: rgb(10, 232, 95);
+    text-shadow: -0.5px 0.5px 0.5px black;
+}
+
+.Ryan__Chemtrails {
+    background-color: rgb(206, 241, 11);
+    color: rgb(232, 10, 128);
+    text-shadow: -0.5px 0.5px 0.5px black;
+}
+
+.Ryan__Hollowearth {
+    background-color: rgb(46, 11, 241);
+    color: rgb(225, 245, 6);
+    text-shadow: -0.5px 0.5px 0.5px black;
+}
 .Jonathan {
     display: flex;
     flex-wrap: wrap;
