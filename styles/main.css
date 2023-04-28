@@ -15,3 +15,24 @@
 .Ryan--img {
     width: 50%;
 }
+
+.Jonathan {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.content {
+    border: solid red;
+}
+
+.words {
+    width: 50px;
+    font-size: larger;
+    text-align: center;
+}
+
+.image {
+    width: 250px;
+    height: 250px;
+}
