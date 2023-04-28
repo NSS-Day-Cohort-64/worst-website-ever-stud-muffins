@@ -5,7 +5,7 @@ const locationDatabase = locations()
 //
 
 export const locationList = () => {
-    let locationsHTML = "<h2>Locations that Big Foot has defernately been spotedd.</h2>"
+    let locationsHTML = "<h3>Locations that Big Foot has defernately been spotedd.</h3>"
 
     for (const location of locationDatabase) {
         locationsHTML += `<div id="card" class="Jonathan class="card">
@@ -21,17 +21,3 @@ export const locationList = () => {
 
     return locationsHTML
 }
-
-
-// <div id="card" class="card">
-//   <div class="content">
-//     <image src="${location.image}">
-//         <p>${location.location}</p>
-//   </div>
-// </div>
-
-
-// <div class="card"><img src=${location.image}>
-//         <div class="words"><p>${location.location}</p>
-//         </div>
-//         </div>
