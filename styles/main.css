@@ -1,3 +1,21 @@
+.Ryan {
+    border-left: 2px solid purple;
+    border-right: 3px solid lime;
+    border-top: 4px solid hotpink;
+    border-bottom: 2px solid rgb(199, 212, 5);
+    width: 95%;
+}
+
+.Ryan__bigfoot {
+    background-color: yellowgreen;
+    color: fuchsia;
+    text-shadow: -0.5px 0.5px 0.5px black;
+}
+
+.Ryan--img {
+    width: 50%;
+}
+
 .Jonathan {
     display: flex;
     flex-wrap: wrap;
